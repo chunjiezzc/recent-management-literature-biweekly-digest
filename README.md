@@ -15,6 +15,7 @@ The repository tracks the latest online articles from the following journals:
 - Academy of Management Review (AMR)
 - Entrepreneurship Theory and Practice (ETP)
 - Journal of Business Venturing (JBV)
+- Research Policy (RP)
 - Strategic Entrepreneurship Journal (SEJ)
 - Journal of Management (JoM)
 - Journal of Management Studies (JMS)
