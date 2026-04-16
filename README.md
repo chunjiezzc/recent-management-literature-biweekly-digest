@@ -4,7 +4,7 @@ A regularly updated archive of newly published papers in top management, entrepr
 
 - **Maintainer**: Zhengchu Zhang
 - **First release**: 2026-03-15
-- **Update Date**:2026-04-15
+- **Update date**: 2026-04-16
 - **Format**: every digest is provided as both Markdown (`.md`) for reading/citation and PDF (`.pdf`) for sharing.
 
 ---
@@ -16,7 +16,8 @@ The repository is organized into three tracks, each in its own folder:
 | Folder | Track | Frequency | Filename pattern |
 |---|---|---|---|
 | [MGMT_LITERATURE/](MGMT_LITERATURE/) | Core management journals | Biweekly | `weekly_digest_YYYY-MM-DD_en.{md,pdf}` |
-| [RP_JBV/](RP_JBV/) | Research Policy + Journal of Business Venturing | Monthly | `monthly_digest_YYYY-MM-DD_jbv_rp_en.{md,pdf}` |
+| [RP_JBV/](RP_JBV/) | Research Policy + Journal of Business Venturing | Monthly (mid-month) | `monthly_digest_YYYY-MM-DD_jbv_rp_en.{md,pdf}` |
+| [Management_Science/](Management_Science/) | Management Science | Monthly (end of month) | `ms_monthly_digest_YYYY-MM_en.{md,pdf}` |
 | [Finance/](Finance/) | Top finance journals | Periodic | `finance_digest_YYYY-MM-DD_en.{md,pdf}` |
 
 Inside each track, `md/` holds the Markdown versions and `pdf/` holds the PDF versions.
@@ -43,7 +44,15 @@ Inside each track, `md/` holds the Markdown versions and `pdf/` holds the PDF ve
 - Research Policy (RP)
 - Journal of Business Venturing (JBV)
 
-These two journals are reported monthly rather than biweekly due to Elsevier RSS rules.
+These two journals are reported monthly rather than biweekly due to Elsevier RSS rules. Updated around **mid-month** (15th).
+
+**Monthly Management Science digest** ([Management_Science/](Management_Science/))
+
+- Management Science (MS)
+
+Only includes articles from the following four departments: **Entrepreneurship and Innovation**, **Finance**, **Organizations**, and **Strategy**. Other departments (e.g., Accounting, Decision Analysis, Operations Management) are excluded.
+
+Updated around **end of month**. The filename uses `YYYY-MM` (e.g., `ms_monthly_digest_2026-03_en`) to indicate the month covered.
 
 **Finance digest** ([Finance/](Finance/))
 
@@ -68,7 +77,9 @@ The date in every filename is **inclusive** and marks the **last day** covered b
 | `weekly_digest_2026-02-28_en` | 2026-02-15 → 2026-02-28 |
 | `weekly_digest_2026-03-14_en` | 2026-03-01 → 2026-03-14 |
 
-**Monthly RP/JBV digest** — Update the latest papers every month.
+**Monthly RP/JBV digest** — Updated around mid-month (15th), covering the latest papers.
+
+**Monthly MS digest** — Updated around end of month, covering papers from that calendar month.
 
 ---
 
