@@ -4,23 +4,22 @@ A regularly updated archive of newly published papers in top management, entrepr
 
 - **Maintainer**: Zhengchu Zhang
 - **First release**: 2026-03-15
-- **Update date**: 2026-04-16
-- **Format**: every digest is provided as both Markdown (`.md`) for reading/citation and PDF (`.pdf`) for sharing.
+- **Update date**: 2026-05-01
+- **Format**: every digest is provided as a PDF (`.pdf`). Each English issue also has a Chinese–English bilingual companion in [bilingual_summary/](bilingual_summary/).
 
 ---
 
 ## What's inside
 
-The repository is organized into three tracks, each in its own folder:
+The repository is organized into four English-digest tracks plus one bilingual track:
 
 | Folder | Track | Frequency | Filename pattern |
 |---|---|---|---|
-| [MGMT_LITERATURE/](MGMT_LITERATURE/) | Core management journals | Biweekly | `weekly_digest_YYYY-MM-DD_en.{md,pdf}` |
-| [RP_JBV/](RP_JBV/) | Research Policy + Journal of Business Venturing | Monthly (mid-month) | `monthly_digest_YYYY-MM-DD_jbv_rp_en.{md,pdf}` |
-| [Management_Science/](Management_Science/) | Management Science | Monthly (end of month) | `ms_monthly_digest_YYYY-MM_en.{md,pdf}` |
-| [Finance/](Finance/) | Top finance journals | Periodic | `finance_digest_YYYY-MM-DD_en.{md,pdf}` |
-
-Inside each track, `md/` holds the Markdown versions and `pdf/` holds the PDF versions.
+| [MGMT_LITERATURE/](MGMT_LITERATURE/) | Core management journals | Biweekly | `weekly_digest_YYYY-MM-DD_en.pdf` |
+| [RP_JBV/](RP_JBV/) | Research Policy + Journal of Business Venturing | Monthly (mid-month) | `monthly_digest_YYYY-MM-DD_jbv_rp_en.pdf` |
+| [Management_Science/](Management_Science/) | Management Science | Monthly (end of month) | `ms_monthly_digest_YYYY-MM_en.pdf` |
+| [Finance/](Finance/) | Top finance journals | Periodic | `finance_digest_YYYY-MM-DD_en.pdf` |
+| [bilingual_summary/](bilingual_summary/) | Chinese–English bilingual versions of all four tracks above | Mirrors source track | `*_bilingual.pdf` |
 
 ---
 
@@ -52,7 +51,7 @@ These two journals are reported monthly rather than biweekly due to Elsevier RSS
 
 Only includes articles from the following four departments: **Entrepreneurship and Innovation**, **Finance**, **Organizations**, and **Strategy**. Other departments (e.g., Accounting, Decision Analysis, Operations Management) are excluded.
 
-Updated around **end of month**. The filename uses `YYYY-MM` (e.g., `ms_monthly_digest_2026-03_en`) to indicate the month covered.
+Updated around **end of month**.
 
 **Finance digest** ([Finance/](Finance/))
 
@@ -63,6 +62,19 @@ Updated around **end of month**. The filename uses `YYYY-MM` (e.g., `ms_monthly_
 - Review of Finance (RF)
 
 Periodic update.
+
+---
+
+## Bilingual versions
+
+[bilingual_summary/](bilingual_summary/) contains a Chinese–English bilingual PDF for every issue across the four English tracks. The filename mirrors the English source, with `_en` replaced by `_bilingual`:
+
+| English source | Bilingual companion |
+|---|---|
+| `MGMT_LITERATURE/weekly_digest_YYYY-MM-DD_en.pdf` | `bilingual_summary/weekly_digest_YYYY-MM-DD_bilingual.pdf` |
+| `RP_JBV/monthly_digest_YYYY-MM-DD_jbv_rp_en.pdf` | `bilingual_summary/monthly_digest_YYYY-MM-DD_jbv_rp_bilingual.pdf` |
+| `Management_Science/ms_monthly_digest_YYYY-MM_en.pdf` | `bilingual_summary/ms_monthly_digest_YYYY-MM_bilingual.pdf` |
+| `Finance/finance_digest_YYYY-MM-DD_en.pdf` | `bilingual_summary/finance_summary_bilingual.pdf` |
 
 ---
 
@@ -80,10 +92,3 @@ The date in every filename is **inclusive** and marks the **last day** covered b
 **Monthly RP/JBV digest** — Updated around mid-month (15th), covering the latest papers.
 
 **Monthly MS digest** — Updated around end of month, covering papers from that calendar month.
-
----
-
-## Tips for using the digest
-
-- Open the `.md` file if you want to copy citations, DOIs, or paste excerpts into your notes.
-- Open the `.pdf` file if you just want to read or share the issue.
