@@ -4,7 +4,7 @@ A regularly updated archive of newly published papers in top management, entrepr
 
 - **Maintainer**: Zhengchu Zhang
 - **First release**: 2026-03-15
-- **Update date**: 2026-05-01
+- **Update date**: 2026-05-16
 - **Format**: every digest is provided as a PDF (`.pdf`). Each English issue also has a Chinese–English bilingual companion in [bilingual_summary/](bilingual_summary/).
 
 ---
@@ -13,13 +13,13 @@ A regularly updated archive of newly published papers in top management, entrepr
 
 The repository is organized into four English-digest tracks plus one bilingual track:
 
-| Folder | Track | Frequency | Filename pattern |
-|---|---|---|---|
-| [MGMT_LITERATURE/](MGMT_LITERATURE/) | Core management journals | Biweekly | `weekly_digest_YYYY-MM-DD_en.pdf` |
-| [RP_JBV/](RP_JBV/) | Research Policy + Journal of Business Venturing | Monthly (mid-month) | `monthly_digest_YYYY-MM-DD_jbv_rp_en.pdf` |
-| [Management_Science/](Management_Science/) | Management Science | Monthly (end of month) | `ms_monthly_digest_YYYY-MM_en.pdf` |
-| [Finance/](Finance/) | Top finance journals | Periodic | `finance_digest_YYYY-MM-DD_en.pdf` |
-| [bilingual_summary/](bilingual_summary/) | Chinese–English bilingual versions of all four tracks above | Mirrors source track | `*_bilingual.pdf` |
+| Folder                                  | Track                                                        | Frequency              | Filename pattern                            |
+| --------------------------------------- | ------------------------------------------------------------ | ---------------------- | ------------------------------------------- |
+| [MGMT_LITERATURE/](MGMT_LITERATURE/)       | Core management journals                                     | Biweekly               | `weekly_digest_YYYY-MM-DD_en.pdf`         |
+| [RP_JBV/](RP_JBV/)                         | Research Policy + Journal of Business Venturing              | Monthly (mid-month)    | `monthly_digest_YYYY-MM-DD_jbv_rp_en.pdf` |
+| [Management_Science/](Management_Science/) | Management Science                                           | Monthly (end of month) | `ms_monthly_digest_YYYY-MM_en.pdf`        |
+| [Finance/](Finance/)                       | Top finance journals                                         | Periodic               | `finance_digest_YYYY-MM-DD_en.pdf`        |
+| [bilingual_summary/](bilingual_summary/)   | Chinese–English bilingual versions of all four tracks above | Mirrors source track   | `*_bilingual.pdf`                         |
 
 ---
 
@@ -69,12 +69,12 @@ Periodic update.
 
 [bilingual_summary/](bilingual_summary/) contains a Chinese–English bilingual PDF for every issue across the four English tracks. The filename mirrors the English source, with `_en` replaced by `_bilingual`:
 
-| English source | Bilingual companion |
-|---|---|
-| `MGMT_LITERATURE/weekly_digest_YYYY-MM-DD_en.pdf` | `bilingual_summary/weekly_digest_YYYY-MM-DD_bilingual.pdf` |
-| `RP_JBV/monthly_digest_YYYY-MM-DD_jbv_rp_en.pdf` | `bilingual_summary/monthly_digest_YYYY-MM-DD_jbv_rp_bilingual.pdf` |
-| `Management_Science/ms_monthly_digest_YYYY-MM_en.pdf` | `bilingual_summary/ms_monthly_digest_YYYY-MM_bilingual.pdf` |
-| `Finance/finance_digest_YYYY-MM-DD_en.pdf` | `bilingual_summary/finance_summary_bilingual.pdf` |
+| English source                                          | Bilingual companion                                                  |
+| ------------------------------------------------------- | -------------------------------------------------------------------- |
+| `MGMT_LITERATURE/weekly_digest_YYYY-MM-DD_en.pdf`     | `bilingual_summary/weekly_digest_YYYY-MM-DD_bilingual.pdf`         |
+| `RP_JBV/monthly_digest_YYYY-MM-DD_jbv_rp_en.pdf`      | `bilingual_summary/monthly_digest_YYYY-MM-DD_jbv_rp_bilingual.pdf` |
+| `Management_Science/ms_monthly_digest_YYYY-MM_en.pdf` | `bilingual_summary/ms_monthly_digest_YYYY-MM_bilingual.pdf`        |
+| `Finance/finance_digest_YYYY-MM-DD_en.pdf`            | `bilingual_summary/finance_summary_bilingual.pdf`                  |
 
 ---
 
@@ -84,8 +84,8 @@ The date in every filename is **inclusive** and marks the **last day** covered b
 
 **Biweekly digest** — covers the half-month ending on the date shown:
 
-| Filename | Period covered |
-|---|---|
+| Filename                        | Period covered           |
+| ------------------------------- | ------------------------ |
 | `weekly_digest_2026-02-28_en` | 2026-02-15 → 2026-02-28 |
 | `weekly_digest_2026-03-14_en` | 2026-03-01 → 2026-03-14 |
 
