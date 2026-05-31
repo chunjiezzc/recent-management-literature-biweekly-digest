@@ -4,7 +4,7 @@ A regularly updated archive of newly published papers in top management, entrepr
 
 - **Maintainer**: Zhengchu Zhang
 - **First release**: 2026-03-15
-- **Update date**: 2026-05-16
+- **Update date**: 2026-05-31
 - **Format**: every digest is provided as a PDF (`.pdf`). Each English issue also has a Chinese–English bilingual companion in [bilingual_summary/](bilingual_summary/).
 
 ---
@@ -29,6 +29,7 @@ The repository is organized into four English-digest tracks plus one bilingual t
 
 - Academy of Management Journal (AMJ)
 - Academy of Management Review (AMR)
+- Academy of Management Annals (AMA) — _added from 2026-05-31_
 - Administrative Science Quarterly (ASQ)
 - Strategic Management Journal (SMJ)
 - Strategic Entrepreneurship Journal (SEJ)
