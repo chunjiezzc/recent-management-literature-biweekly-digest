@@ -4,7 +4,7 @@ A regularly updated archive of newly published papers in top management, entrepr
 
 - **Maintainer**: Zhengchu Zhang
 - **First release**: 2026-03-15
-- **Update date**: 2026-07-25
+- **Update date**: 2026-07-26
 - **Format**: every digest is provided as a PDF (`.pdf`). Each English issue also has a Chinese–English bilingual companion in [bilingual_summary/](bilingual_summary/).
 
 ---
@@ -18,7 +18,7 @@ The repository is organized into four English-digest tracks plus one bilingual t
 | [MGMT_LITERATURE/](MGMT_LITERATURE/)       | Core management journals                                     | Biweekly               | `weekly_digest_YYYY-MM-DD_en.pdf`         |
 | [RP_JBV/](RP_JBV/)                         | Research Policy + Journal of Business Venturing              | Monthly (mid-month)    | `monthly_digest_YYYY-MM-DD_jbv_rp_en.pdf` |
 | [Management_Science/](Management_Science/) | Management Science                                           | Monthly (end of month) | `ms_monthly_digest_YYYY-MM_en.pdf`        |
-| [Finance/](Finance/)                       | Top finance journals                                         | Periodic               | `finance_digest_YYYY-MM-(MM)_en.pdf`        |
+| [Finance/](Finance/)                       | Top finance journals                                         | Periodic               | `finance_digest_YYYY-MM_(MM)_en.pdf`        |
 | [bilingual_summary/](bilingual_summary/)   | Chinese–English bilingual versions of all four tracks above | Mirrors source track   | `*_bilingual.pdf`                         |
 
 ---
@@ -56,7 +56,7 @@ Updated around **end of month**.
 **Finance digest** ([Finance/](Finance/))
 
 - The Journal of Finance (JF)
-- Journal of Financial Economics (JFE)
+- Journal of Financial Economics (JFE) (Separate files)
 - Review of Financial Studies (RFS)
 - Journal of Financial and Quantitative Analysis (JFQA)
 - Review of Finance (RF)
@@ -74,7 +74,7 @@ Periodic update.
 | `MGMT_LITERATURE/weekly_digest_YYYY-MM-DD_en.pdf`     | `bilingual_summary/weekly_digest_YYYY-MM-DD_bilingual.pdf`         |
 | `RP_JBV/monthly_digest_YYYY-MM-DD_jbv_rp_en.pdf`      | `bilingual_summary/monthly_digest_YYYY-MM-DD_jbv_rp_bilingual.pdf` |
 | `Management_Science/ms_monthly_digest_YYYY-MM_en.pdf` | `bilingual_summary/ms_monthly_digest_YYYY-MM_bilingual.pdf`        |
-| `Finance/finance_digest_YYYY-MM-DD_en.pdf`            | `bilingual_summary/finance_digest_YYYY-MM-(MM)_main_bilingual.pdf` |
+| `Finance/finance_digest_YYYY-MM-DD_en.pdf`            | `bilingual_summary/finance_digest_YYYY-MM_(MM)_main_bilingual.pdf` |
 
 ---
 
