@@ -19,7 +19,7 @@ The repository is organized into four English-digest tracks plus one bilingual t
 | [RP_JBV/](RP_JBV/)                         | Research Policy + Journal of Business Venturing              | Monthly (mid-month)    | `monthly_digest_YYYY-MM-DD_jbv_rp_en.pdf` |
 | [Management_Science/](Management_Science/) | Management Science                                           | Monthly (end of month) | `ms_monthly_digest_YYYY-MM_en.pdf`        |
 | [Finance/](Finance/)                       | Top finance journals                                         | Periodic               | `finance_digest_YYYY-MM_(MM)_en.pdf`      |
-| [Review_Econ_Fin/](Review_Econ_Fin/)  | Review journals in Econ and Finance  | Periodic    | `review_digest_*_en.pdf`                         |
+| [Review_Econ_Fin/](Review_Econ_Fin/)       | Review journals in Econ and Finance                          | Periodic               | `review_digest_*_en.pdf`                  |
 | [bilingual_summary/](bilingual_summary/)   | Chinese–English bilingual versions of all four tracks above | Mirrors source track   | `*_bilingual.pdf`                         |
 
 ---
@@ -72,7 +72,6 @@ Periodic update.
 - Annual Review of Economics
 
 Periodic update.
-----------------
 
 ## Bilingual versions
 
