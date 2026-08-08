@@ -3,8 +3,8 @@
 A regularly updated archive of newly published papers in top management, entrepreneurship, innovation, and finance journals. Each digest is generated from article abstracts so you can scan recent research in one place instead of checking journal websites one by one.
 
 - **Maintainer**: Zhengchu Zhang
-- **First release**: 2026-03-15
-- **Update date**: 2026-07-31
+- **First release**: 2026 March 15
+- **Update date**: 2026 August 8
 - **Format**: every digest is provided as a PDF (`.pdf`). Each English issue also has a Chinese–English bilingual companion in [bilingual_summary/](bilingual_summary/).
 
 ---
@@ -13,12 +13,13 @@ A regularly updated archive of newly published papers in top management, entrepr
 
 The repository is organized into four English-digest tracks plus one bilingual track:
 
-| Folder                                  | Track                                                        | Frequency              | Filename pattern                            |
-| --------------------------------------- | ------------------------------------------------------------ | ---------------------- | ------------------------------------------- |
+| Folder                                    | Track                                                        | Frequency              | Filename pattern                            |
+| ----------------------------------------- | ------------------------------------------------------------ | ---------------------- | ------------------------------------------- |
 | [MGMT_LITERATURE/](MGMT_LITERATURE/)       | Core management journals                                     | Biweekly               | `weekly_digest_YYYY-MM-DD_en.pdf`         |
 | [RP_JBV/](RP_JBV/)                         | Research Policy + Journal of Business Venturing              | Monthly (mid-month)    | `monthly_digest_YYYY-MM-DD_jbv_rp_en.pdf` |
 | [Management_Science/](Management_Science/) | Management Science                                           | Monthly (end of month) | `ms_monthly_digest_YYYY-MM_en.pdf`        |
-| [Finance/](Finance/)                       | Top finance journals                                         | Periodic               | `finance_digest_YYYY-MM_(MM)_en.pdf`        |
+| [Finance/](Finance/)                       | Top finance journals                                         | Periodic               | `finance_digest_YYYY-MM_(MM)_en.pdf`      |
+| [Review_Econ_Fin/](Review_Econ_Fin/)  | Review journals in Econ and Finance  | Periodic    | `review_digest_*_en.pdf`                         |
 | [bilingual_summary/](bilingual_summary/)   | Chinese–English bilingual versions of all four tracks above | Mirrors source track   | `*_bilingual.pdf`                         |
 
 ---
@@ -63,7 +64,15 @@ Updated around **end of month**.
 
 Periodic update.
 
----
+**Review - Finance and Economics** ([Review_Econ_Fin/](Review_Econ_Fin/))
+
+- Journal of Economic Literature (JEL)
+- Journal of Economic Perspectives (JEP)
+- Annual Review of Financial Economics (ARFE)
+- Annual Review of Economics
+
+Periodic update.
+----------------
 
 ## Bilingual versions
 
